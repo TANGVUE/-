@@ -1,0 +1,36 @@
+.tzc-swiper-box {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.tzc-swiper-box .tzc-swiper-ul .tzc-swiper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform: translate(0, 0);
+  font-size: 40px;
+  text-align: center;
+  line-height: 200px;
+}
+
+.tzc-swiper-box .tzc-swiper-ul .tzc-swiper:nth-child(1) {
+  background-color: red;
+}
+
+.tzc-swiper-box .tzc-swiper-ul .tzc-swiper:nth-child(2) {
+  background-color: blue;
+}
+
+.tzc-swiper-box .tzc-swiper-ul .tzc-swiper:nth-child(3) {
+  background-color: yellow;
+}
+
+.tzc-swiper-box .tzc-swiper-ul .tzc-swiper:nth-child(4) {
+  background-color: green;
+}
+
+.tzc-swiper-box .tzc-swiper-ul .active {
+  z-index: 99 !important;
+}
